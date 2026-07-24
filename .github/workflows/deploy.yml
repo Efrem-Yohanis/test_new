@@ -39,3 +39,7 @@ jobs:
       - name: Trigger Render Deploy
         run: |
           curl "https://api.render.com/deploy/srv-d9hs0s6rnols73akc9mg?key=${{ secrets.RENDER_DEPLOY_KEY }}&imgURL=docker.io%2F10901%2Fdjango-app_v6%3Alatest"
+
+
+
+          
