@@ -6,4 +6,4 @@ client = TestClient(app)
 def test_read_root():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"name": "efrem yohanis", "age": 15}
+    assert response.json() == {"name": "efrem yohanis new test", "age": 15}
